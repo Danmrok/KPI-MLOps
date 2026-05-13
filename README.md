@@ -1,8 +1,8 @@
 # MLOps Lab 1: Air Quality CO Classification
 
-**Автор:** KPI Student  
-**Група:** [Ваша група]  
-**Дата:** 2024  
+**Автор:** Striltsov Denys
+**Група:** TR-52mp
+**Дата:** 2026  
 **Варіант:** 18
 
 ---
