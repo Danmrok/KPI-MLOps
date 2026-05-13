@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (самі дані — під DVC, не в Git)
+*.csv
+*.parquet
+*.h5
+*.xlsx
+!*.csv.dvc
+!*.pkl.dvc
+!*.joblib.dvc
+
+# Models
+*.pkl
+*.joblib
+*.onnx
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# DVC (дані не в git, але .dvc метафайли — так)
+!data/raw/.gitignore
+!data/processed/.gitignore
+!data/external/.gitignore
+!models/.gitignore
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Тимчасові файли
+*.log
+*.tmp
+/tmp/
+
